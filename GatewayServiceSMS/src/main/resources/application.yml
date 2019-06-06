@@ -25,7 +25,7 @@ zuul:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8888/eureka/
+      defaultZone: http://localhost:8761/eureka/
     eureka-server-read-timeout-seconds: 100
   
 ribbon:
